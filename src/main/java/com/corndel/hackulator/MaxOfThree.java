@@ -15,6 +15,7 @@ public class MaxOfThree {
       return z;
     }
 
-    throw new Error("Is this reachable?");
+    //throw new Error("Is this reachable?");
+    return Math.max(Math.max(x, y), z); 
   }
 }
